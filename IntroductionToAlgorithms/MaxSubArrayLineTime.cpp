@@ -2,6 +2,7 @@
 
 CResult* MaxSubArrayLineTime::getMaxSubArray(int* a,int length)
 {
+	//第一个元素的边界最大子数组，最大子数组都是自身
 	int boundry = a[0];//边界最大子数组的和
 	int maxArray = a[0];//前最大子数组的和
 	int beginIndex = 0;//开始索引
